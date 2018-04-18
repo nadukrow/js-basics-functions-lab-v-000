@@ -4,10 +4,7 @@ function distanceFromHqInBlocks(distance) {
   return Math.abs(distance - 42);
 }
 
-function distanceFromHQInFeet() {
-  
-}
-
-function distanceTraveledInFeet() {
-  
+function distanceFromHqInFeet (distance) {
+  const blocks = distanceFromHqInBlocks(st);
+  return blocks * 264;
 }
