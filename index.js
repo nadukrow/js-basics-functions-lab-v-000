@@ -14,7 +14,7 @@ function distanceFromHqInFeet (distance) {
   return blocks * 264;
 }
 
-function distanceTravelledInFeet (start, destination) {
+function distanceTravelledInFeet (startlocale, destination) {
   
   return Math.abs(start - destination) * 264;
   
