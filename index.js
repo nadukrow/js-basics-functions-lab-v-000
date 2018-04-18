@@ -8,4 +8,6 @@ function distanceFromHQInFeet() {
   
 }
 
-function 
+function distanceTraveledInFeet() {
+  
+}
