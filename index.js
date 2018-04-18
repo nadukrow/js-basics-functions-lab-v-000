@@ -21,7 +21,8 @@ function distanceTravelledInFeet (startlocale, endlocale) {
 }
 
 function calculatesFarePrice (startlocale, endlocale) {
-  const dist = distanceTravelledInFeet (start, destination);
+  
+  const dist = distanceTravelledInFeet (startlocale, endlocale);
 
   switch (true) {
     case dist <= 400:
