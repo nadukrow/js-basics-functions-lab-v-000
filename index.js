@@ -16,6 +16,6 @@ function distanceFromHqInFeet (distance) {
 
 function distanceTravelledInFeet (startlocale, endlocale) {
   
-  return Math.abs(startlocale - destination) * 264;
+  return Math.abs(startlocale - endlocale) * 264;
   
 }
